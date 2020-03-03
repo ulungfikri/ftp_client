@@ -19,7 +19,7 @@ client.connect(function () {
     //     console.log(result);
     // });
 
-    client.download('./', 'D:/FB/UPLOAD_PATH/', {
+    client.download('./', 'D:/', {
         overwrite: 'older'
     }, function (result) {
         console.log(result);
